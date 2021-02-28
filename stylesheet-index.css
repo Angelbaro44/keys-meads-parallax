@@ -14,31 +14,28 @@ body {
   display: flex;
 }
 .parallax .caption {
-      width: 100%;
       font-size: 25px;
       letter-spacing: 10px;
       display: flex;
       flex-direction: column;
       align-items: center;
       align-self: center;
+      background-color: antiquewhite;
+      border-radius: 100%;
+      text-align: center;
+      padding: 50px;
+      margin: 100px;
 }
 .parallax .caption span {
   padding: 18px;
   background-color: #111;
 }
-.parallax .caption span.less-height,
-.parallax .caption span.scroll-up,
-.parallax .caption .cool {
-  font-size: 25px;
-  color: #f7f7f7;
-  background-color: transparent;
-  text-transform: uppercase;
-}
-.parallax .caption span.cool {
-  background-color: #111;
-}
+
+
 .parallax.first-image {
-  height: 40%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
   background-image: url("images/Screen Shot 2021-02-27 at 2.34.51 PM.png");
 }
 .parallax.second-image {
@@ -46,7 +43,7 @@ body {
   height: 300px;
 }
 .parallax.third-image {
-  background-image: url("https://www.w3schools.com/howto/img_parallax3.jpg");
+  background-image: url("images/owner&mead.png");
   height: 300px;
 }
 .parallax.fourth-image {
@@ -64,22 +61,9 @@ body {
 .parallax-demo div {
       display: flex;
       text-align: center;
+      place-content: center;
 }
-.parallax-demo div img:nth-child(1){
-      display: flex;
-      width: 30%;
-      height:30%;
-      text-align: center;
-      padding: 25px;
 
-}
-.parallax-demo div img:nth-child(3){
-      display: flex;
-      width: 20%;
-      height: 10%;
-      padding: 25px;
-      text-align: center;
-}
 h3 {
   text-transform: uppercase;
   text-align: center;
@@ -88,13 +72,32 @@ h3 {
   letter-spacing: 5px;
 }
 
-
-.second-text,
-.third-text {
-  color: #ddd;
-  background-color: #282e34;
-  padding: 50px 80px;
-}
 .container{
       flex-direction: column;
+}
+
+
+
+
+
+
+/* Direct Styling  */
+
+body > div:nth-child(2) > div > img{
+      margin: 30px;
+}
+body > div:nth-child(6) > div > img:nth-child(1){
+      display: flex;
+      width: 300px;
+      height:300px;
+      text-align: center;
+      padding: 25px;
+
+}
+body > div:nth-child(6) > div > img:nth-child(3){
+      display: flex;
+      width: 300px;
+      height: 300px;
+      padding: 25px;
+      text-align: center;
 }
