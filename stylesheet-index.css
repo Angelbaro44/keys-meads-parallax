@@ -244,7 +244,7 @@ body > div.parallax.second-image > div > a > span > h2{
       color: antiquewhite;
 }
 body > div.parallax.second-image > div > a > span > h2:hover {
-      color: white;
+      color: rgb(250, 241, 228);
 }
 
 
