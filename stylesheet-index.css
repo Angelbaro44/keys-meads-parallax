@@ -3,11 +3,42 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  font-size: 20px;
+  font-size: 22px;
 }
 img{
 border-radius: 10px;
 }
+/* unvisited link */
+a:link {
+text-decoration:wavy;
+      color: inherit;
+      transition: all .3s;
+
+    }
+    
+    /* visited link */
+    a:visited {
+      text-decoration:wavy;
+      color: inherit;
+      transition: all .3s;
+
+    }
+    
+    /* mouse over link */
+    a:hover {
+          color: black;
+      text-decoration:wavy;
+transition: all .3s;
+font-size: 23px;
+}
+    
+    /* selected link */
+    a:active {
+      text-decoration:wavy;
+      color: blue;
+      transition: all .3s;
+
+    }
 .container{
       flex-direction: column;
 }
@@ -74,7 +105,6 @@ border-radius: 10px;
   color: antiquewhite;
   padding: 50px 80px;
   text-align: center;
-  font-size: 30px;
   background-color:rgba(119, 136, 153, 0.685);
   text-shadow: 
    0 0 5px rgba(0, 0, 0, 0.8),
@@ -207,7 +237,12 @@ body > div:nth-child(6) > div > img:nth-child(3){
       margin: 25px;
       text-align: center;
 }
-
+body > div.parallax.second-image > div > a > span > h2{
+      color: antiquewhite;
+}
+body > div.parallax.second-image > div > a > span > h2:hover {
+      color: white;
+}
 
 
 
