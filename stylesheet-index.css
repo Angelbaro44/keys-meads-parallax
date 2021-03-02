@@ -150,9 +150,10 @@ border-radius: 10px;
       color: black;
       font-size: 25px;
 }
-.clubLink b, .productLink b{
-font-size: 50px;  
-color: black;
+.clubLink img, .productLink img{
+box-shadow: 0 0 15px wheat;
+border: 2px solid wheat;
+
 }
 
 
