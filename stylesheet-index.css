@@ -253,7 +253,10 @@ body > div:nth-child(6) > div > img:nth-child(3){
       color: black;
  
       }
+      .parallax.second-image{
+            background-position: -682px;
 
+      }
 
 
 
