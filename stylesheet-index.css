@@ -148,7 +148,7 @@ img{
       font-size: 25px;
 
 }
-.clubLink p b, .productLink p b{
+.clubLink b, .productLink b{
 font-size: 50px;
       
 }
@@ -269,6 +269,6 @@ body > div:nth-child(6) > div > img:nth-child(3){
 padding: 50px 10px;
       }
 
-
+      
 
     }
