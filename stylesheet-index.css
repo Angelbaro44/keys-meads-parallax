@@ -185,7 +185,10 @@ box-shadow: 0 0 15px wheat;
 border: 2px solid wheat;
 
 }
-
+.parallax.third-image div button:hover{
+box-shadow: 0 0 20px wheat;
+transition: all step-start .3s;
+}
 
 
 
