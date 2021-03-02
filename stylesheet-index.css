@@ -21,12 +21,14 @@ body {
       background-color: white;
       padding: 50px 80px;
       text-align: center;
-    
+
     }
 .parallax-demo div {
           display: flex;
           text-align: center;
           place-content: center;
+          align-items: center;
+
     }
 
     
@@ -201,3 +203,42 @@ body > div:nth-child(6) > div > img:nth-child(3){
       padding: 25px;
       text-align: center;
 }
+
+
+
+
+
+@media only screen and (max-width: 780px) {
+      body > div:nth-child(2) > div > div > p:nth-child(2){
+            display: none;
+      }
+      body > div:nth-child(4) > div > div > p:nth-child(3){
+            display: none;
+      }
+      body > div:nth-child(6) > div > div > p:nth-child(1){
+            display: none;
+      }
+      body > div:nth-child(6) > div > img:nth-child(3){
+            display: none;
+      }
+      body > div.parallax.second-image > div > p:nth-child(4){
+            display: none;
+      }
+      
+      
+      
+      .clubLink, .productLink{
+           width: 35%;
+           height: 35%;
+      }
+      
+      .clubLink p, .productLink p{
+            display: none !important;
+      }
+
+
+
+
+
+
+    }
