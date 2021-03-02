@@ -141,16 +141,17 @@ img{
       flex-direction: column;
       border: 4px outset wheat;
 }
+.clubLink ins, .productLink ins{
+      color: black;
+}
 .clubLink p, .productLink p{
       width: 50%;
       height: 50%;
       color: black;
       font-size: 25px;
-
 }
 .clubLink b, .productLink b{
-font-size: 50px;
-      
+font-size: 50px;  
 }
 
 
@@ -268,7 +269,17 @@ body > div:nth-child(6) > div > img:nth-child(3){
       .parallax.second-image{
 padding: 50px 10px;
       }
-
+      .clubLink ins, .productLink ins{
+            color: black;      
+      }
+      .clubLink p, .productLink p{
+            color: black;      
+      }
+      .clubLink b, .productLink b{
+      font-size: 50px;
+      color: black;
+ 
+      }
       
 
     }
