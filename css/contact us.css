@@ -199,8 +199,11 @@ textarea {
 
 @media screen and (max-width: 768px) {
   #container {
-    margin: 20px auto;
-    width: 95%;
+    border: none;
+    margin: none;
+    position: relative;
+    width: 100%;
+    background-color: rgba(245, 222, 179, 0.507);
   }
 }
 
