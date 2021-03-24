@@ -190,7 +190,21 @@ box-shadow: 0 0 20px wheat;
 transition: all step-start .3s;
 }
 
+.bigContainer{
+padding: 30px;
+flex-direction: column;
 
+}
+.textContainer{
+      padding: 10%;
+      flex-direction: column;
+}
+.takeLeft{
+float: left;
+}
+.tekeRight{
+
+}
 
 
 
